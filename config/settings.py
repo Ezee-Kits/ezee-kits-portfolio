@@ -125,10 +125,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-# For development
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
 
 # MEDIA_ROOT = os.path.join(BASE_DIR,'media') # Root directory where our pictures will be stored  i.e Current Dir >> + media
 # MEDIA_URL = '/media/'
